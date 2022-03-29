@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff;
+}
+:root{
+    --box-shadow: -8px 5px 10px 6px #dddd;
+}
+/* start contact_banner     */
+#contact_banner{
+    background-image: url('../img/meeting.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 200px;
+    opacity: .3;
+    position: relative;
+}
+/* end contact_banner     */
+/* start contact_title  */
+.contact_heading p{
+    color: #066ae5;
+}
+.contact_title{
+    position: absolute;
+    top: 40px;
+}
+h1{
+    text-transform: uppercase;
+    color: #ffffff !important;
+    position: absolute;
+    left: 100px;
+    top: 40px;
+}
+/* end contact_title  */
+/* start nav-bar  */
+.nav-bar {
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    top: 140px;
+    right: 100px;
+    
+}
+.nav-bar ul li {
+    list-style-type: none;
+}
+.nav-bar nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* end nav-bar  */
+/* start contact info  */
+.contact_info{
+    margin-top: 60px;
+}
+.address{
+    border: 2px solid #eff2f8;
+    text-align: center;
+    padding: 25px;
+    transition: all 500ms ease;
+}
+.address:hover{
+    box-shadow: var(--box-shadow);
+}
+.mail_address{
+    border: 2px solid #eff2f8;
+    text-align: center;
+    padding: 25px;
+    transition: all 500ms ease;
+}
+.mail_address:hover{
+    box-shadow: var(--box-shadow);
+}
+.phone{
+    border: 2px solid #eff2f8;
+    text-align: center;
+    padding: 25px;
+    transition: all 500ms ease;
+}
+.phone:hover{
+    box-shadow: var(--box-shadow);
+}
+.blue_circle{
+    background: #066ae5;
+    color: white;
+    padding: 15px;
+    border-radius: 50px;
+}
+h5{
+    margin-top: 30px;
+}
+.fa-solid{
+    font-size: 25px;
+}
+/* end contact info  */
+/* form  */
+.submit_btn{
+    margin: 0 auto;
+}
+.bgColor{
+    background: #efefef;
+}
+button{
+    padding: 10px 35px 10px 35px;
+    background-color:#066ae5;
+    color: white;
+    border-radius: 20px;
+    border: 0;
+}
+/* form  */
